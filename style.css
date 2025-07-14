@@ -1,0 +1,491 @@
+body {
+    background-color: rgba(255, 255, 255, 0.575);
+    height: 4000px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(110, 110, 110, 0.452);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 211, 33);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 0, 0.541);
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 200px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.header .slider {
+    background-image: url('images (1).jpg');
+    margin: 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 600px;
+}
+
+.header .slider .intro {
+    height: 600px;
+    padding-top: 220px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    /* text-shadow:  yellow ; */
+}
+
+.header .slider .intro h2 {
+    margin: 0;
+    font-size: 150px;
+    border-top: 4px solid rgba(37, 35, 35, 0.753);
+    border-bottom: 4px solid rgba(37, 35, 35, 0.753);
+}
+
+.header .slider .intro button {
+    background: none;
+    /* width: 180px; */
+    margin-top: 25px;
+    font-size: 20px;
+    border: 3px solid rgba(37, 35, 35, 0.753);
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.header .navbar {
+    /* background-color: yellow; */
+    color: black;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.header .navbar h1 {
+    text-transform: uppercase;
+    float: left;
+    color: black;
+}
+
+
+.header .navbar h1 span {
+    color: rgb(255, 211, 33);
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    overflow: hidden;
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header .navbar .active {
+    color: rgb(255, 211, 33);
+}
+
+.header .navbar ul li a:hover {
+    color: rgb(255, 211, 33);
+}
+
+.search {
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    transition: width 0.3s;
+}
+
+.search input {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.search input:focus {
+    width: 700px;
+    outline-color: rgb(255, 211, 33);
+}
+
+.search input:focus:hover::placeholder {
+    opacity: 0;
+}
+
+.search button {
+    border-radius: 20px;
+    background-color: rgb(255, 211, 33);
+    color: black;
+    font-weight: bold;
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+
+
+/* Start Hovering Imgs  */
+.container-1 {
+    width: 1170px;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (min-width: 768px) {
+    .container-1 {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-1 {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-1 {
+        width: 1170px;
+    }
+}
+
+.container-1 img {
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(20, 20, 20);
+    transition: all ease-in-out 2s;
+}
+
+.container-1 img:hover {
+    width: 80%;
+}
+
+
+
+
+.features {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.features .feat {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+
+}
+
+.features .feat h2 {
+    text-transform: uppercase;
+    color: #555;
+}
+
+.features .feat h2:hover,
+.features .feat p:hover {
+
+    color: black;
+}
+
+
+.features .feat p {
+    line-height: 1.6;
+    color: #888;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 10px 0 0;
+}
+
+.about-me {
+    background-color: rgb(255, 211, 33);
+    overflow: hidden;
+}
+
+.about-me .img {
+    float: left;
+    width: 40%;
+}
+
+.about-me .img img {
+    width: 100%;
+    height: 505px;
+    border-radius: 10px;
+}
+
+
+.about-me .info {
+    float: left;
+    width: 60%;
+}
+
+.about-me .info h2 {
+    margin: 40px 0 20px 40px;
+}
+
+.about-me .info p {
+    margin: 0 0 10px 40px;
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 40px 0 0 40px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about-me .hobbies>div {
+    float: left;
+    width: 50%;
+    /* display: flex;
+justify-content: space-around; */
+    min-height: 100px;
+}
+
+.service {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.service .serv,
+.service .number {
+    width: 50%;
+    float: left;
+}
+
+.service .serv button {
+    background-color: rgb(255, 211, 33);
+    text-align: center;
+    color: black;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+.work {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #EEE;
+}
+
+.work .our-work {
+    overflow: hidden;
+
+}
+
+.work .our-work>div {
+    float: left;
+    overflow: hidden;
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+
+.work .our-work>div img {
+    width: 92%;
+    margin: 10px;
+}
+
+.contact {
+    background-color: rgb(255, 211, 33);
+    overflow: hidden;
+}
+
+.contact h2 {
+    color: black;
+}
+
+.contact p {
+    color: rgba(0, 0, 0, 0.459);
+}
+
+.contact p:hover {
+    color: black;
+}
+
+.contact .info {
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 10%;
+
+}
+
+.contact p strong {
+    color: black;
+}
+
+.contact .form {
+    width: 40%;
+    float: left;
+}
+
+.contact .form label {
+    display: block;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.contact .form input[type="text"] {
+    background-color: rgb(253, 230, 139);
+    color: black;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contact .form textarea {
+    background-color: rgb(253, 230, 139);
+    color: black;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 150px;
+}
+
+.contact .form input[type="submit"] {
+    background-color: rgb(255, 211, 33);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(255, 211, 33);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.footer .container {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-radius: 20px;
+}
+
+.social-media h1 {
+    width: 100%;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+
+.social-media ul {
+    display: flex;
+    position: absolute;
+    padding-left: 440px;
+
+    /* top: 50%;
+right: 50%;
+transform: translate(-50%, -50%); */
+}
+
+.social-media ul li {
+    list-style: none;
+}
+
+.social-media ul li a {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 10px;
+    line-height: 100%;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 3px #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+.social-media ul li a .fa {
+    position: relative;
+    color: #262626;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.social-media ul li a:hover .fa {
+    color: yellow;
+    transform: rotateY(360deg);
+}
+
+.ttop {
+    background-color: black;
+    border: none;
+    color: yellow;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+}
