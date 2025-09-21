@@ -47,7 +47,7 @@ body {
 }
 
 .header .slider {
-    background-image: url('cover2.webp');
+    background-image: url('cover1.webp');
     margin: 0;
     background-size: cover;
     -webkit-background-size: cover;
@@ -489,4 +489,5 @@ transform: translate(-50%, -50%); */
     display: none;
     cursor: pointer;
 }
+
 
