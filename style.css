@@ -114,8 +114,18 @@ body {
 .header .slider .container .intro h2 {
     margin: 0;
     font-size: 50px;
+    background-image: linear-gradient(135deg, #fc0, rgb(255, 204, 0), rgb(112, 109, 109), #fc0, black, #fc0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: aurora 3s ease-in-out infinite alternate;
     border-top: 4px solid rgba(37, 35, 35, 0.753);
     border-bottom: 4px solid rgba(37, 35, 35, 0.753);
+}
+
+@keyframes aurora {
+    to {
+        transform: rotate(-5.22614deg) scale(0.915477);
+    }
 }
 
 .header .slider .intro button {
@@ -900,4 +910,5 @@ body {
     border: 1px solid yellow;
     transition: box-shadow 0.3s ease;
 }
+
 
