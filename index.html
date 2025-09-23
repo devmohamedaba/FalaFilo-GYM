@@ -11,13 +11,12 @@
 </head>
 
 <body>
-    <!-- Start Header  -->
     <div class="header">
         <div class="slider">
             <div class="container">
                 <div class="intro">
-                    <h2>Fala filo</h2>
-                    <button>Learn more</button>
+                    <h2>Falafilo Gym</h2>
+                    <button>Join Us Today</button>
                 </div>
             </div>
         </div>
@@ -26,21 +25,35 @@
                 <h1>Fala<span>filo</span></h1>
                 <ul>
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="service.html">Service</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="about.html">Trainers</a></li>
+                    <li><a href="service.html">Plans</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="Sear">
+
+    <!-- Our Trainers -->
+    <div class="team">
         <div class="container">
-            <div class="search">
-                <input type="search" placeholder="Search">
-                <button>Search</button>
+            <h2>Our Trainers</h2>
+            <div class="team-members">
+                <div class="member">
+                    <img src="./trainer1.jpg" alt="Trainer 1" />
+                    <h4>Coach</h4>
+                    <h4> Ayman FalaFilo</h4>
+                    <p>Strength & Conditioning Coach</p>
+                </div>
+                <div class="member">
+                    <img src="./trainer2.jpg" alt="Trainer 2" />
+                    <h4>Assistant Coach</h4>
+                    <h4>Mohamed KoUta</h4>
+                    <p>Nutrition Specialist</p>
+                </div>
             </div>
         </div>
     </div>
+
     <hr>
     <!-- Start Hovering Imgs  -->
     <div class="hov">
@@ -51,6 +64,138 @@
             <img src="./gym-interior-designers(4).jpg" alt="">
         </div>
     </div>
+
+    <!-- Training Plans -->
+    <div class="plans">
+        <div class="container">
+            <h2>Training Plans</h2>
+            <div class="plan-boxes">
+                <div class="plan">
+                    <h3>Beginner</h3>
+                    <p>4-week program to build basic fitness.</p>
+                    <ul>
+                        <li>Fundamental workouts</li>
+                        <li>Simple diet guide</li>
+                        <li>Weekly check-ins</li>
+                    </ul>
+                    <span class="price">EGP 499</span>
+                    <button>Subscribe Now</button>
+                </div>
+                <div class="plan">
+                    <h3>Intermediate</h3>
+                    <p>8-week program to enhance strength and flexibility.</p>
+                    <ul>
+                        <li>Cardio & resistance training</li>
+                        <li>Custom meal plan</li>
+                        <li>Bi-weekly coaching</li>
+                    </ul>
+                    <span class="price">EGP 899</span>
+                    <button>Subscribe Now</button>
+                </div>
+                <div class="plan">
+                    <h3>Advanced</h3>
+                    <p>12-week program for serious transformation.</p>
+                    <ul>
+                        <li>Personalized workouts</li>
+                        <li>Weekly nutrition consults</li>
+                        <li>Daily progress tracking</li>
+                    </ul>
+                    <span class="price">EGP 1499</span>
+                    <button>Subscribe Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fitness Calculator -->
+    <div class="calculator">
+        <div class="container">
+            <h2>Fitness Calculator</h2>
+            <form>
+                <label>Weight (kg)</label>
+                <input type="number" />
+                <label>Height (cm)</label>
+                <input type="number" />
+                <label>Age</label>
+                <input type="number" />
+                <button type="submit">Calculate BMI</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Workout Videos -->
+    <div class="video-gallery">
+        <div class="container">
+            <h2>Workout Videos</h2>
+            <video controls width="100%">
+                <source src="workout.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Client Transformations -->
+    <div class="transformations">
+        <div class="container">
+            <h2>Client Transformations</h2>
+            <div class="before-after">
+                <img src="./before.jpg" alt="Before" />
+                <img src="./after.jpg" alt="After" />
+                <p><strong>Ali:</strong> Lost 15kg in 3 months with our advanced plan!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gym Store -->
+    <div class="store">
+        <div class="container">
+            <h2>Gym Store</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="./protein.jpg" alt="Protein" />
+                    <h4>Whey Protein</h4>
+                    <p>EGP 699</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="./gloves.jpg" alt="Gloves" />
+                    <h4>Training Gloves</h4>
+                    <p>EGP 199</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gym Stats -->
+    <div class="stats">
+        <div class="container">
+            <h2>Gym Stats</h2>
+            <ul>
+                <li><strong>Active Members:</strong> 1,200+</li>
+                <li><strong>Certified Trainers:</strong> 15</li>
+                <li><strong>Plans Completed:</strong> 3,500+</li>
+                <li><strong>Client Satisfaction:</strong> 98%</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Free Consultation -->
+    <div class="consultation">
+        <div class="container">
+            <h2>Book a Free Consultation</h2>
+            <form>
+                <label>Name</label>
+                <input type="text" />
+                <label>Email</label>
+                <input type="email" />
+                <label>Your Goal</label>
+                <input type="text" />
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </div>
+
 
     <!-- Start Features  -->
     <div class="features">
