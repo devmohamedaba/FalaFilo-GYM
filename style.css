@@ -34,7 +34,7 @@ body {
 }
 
 
-/* Small */
+
 
 @media (max-width: 768px) {
     .container {
@@ -77,14 +77,14 @@ body {
     }
 }
 
-/* Medium */
+
 @media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
 
-/* Large */
+
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
@@ -215,7 +215,7 @@ body {
 
 
 
-/* Start Hovering Imgs  */
+
 .container-1 {
     width: 1170px;
     margin: auto;
@@ -267,8 +267,6 @@ body {
     width: 80%;
 }
 
-/* News Sections  */
-/* === Our Trainers Section === */
 .team {
     background-color: rgb(255, 211, 33);
     padding: 50px 0;
@@ -316,7 +314,7 @@ body {
     font-weight: bold;
 }
 
-/* === Training Plans Section === */
+
 .plans {
     background-color: #f9f9f9;
     padding: 50px 0;
@@ -390,7 +388,7 @@ body {
     border-radius: 10px;
 }
 
-/* === Fitness Calculator Section === */
+
 .calculator {
     background-color: rgb(255, 211, 33);
     padding: 50px 0;
@@ -434,7 +432,7 @@ body {
     border-radius: 10px;
 }
 
-/* === Workout Videos Section === */
+
 .video-gallery {
     background-color: #f9f9f9;
     padding: 50px 0;
@@ -486,7 +484,7 @@ body {
     color: #333;
 }
 
-/* === Gym Store Section === */
+
 .store {
     background-color: #fff;
     padding: 50px 0;
@@ -547,7 +545,7 @@ body {
     border-radius: 10px;
 }
 
-/* === Gym Stats Section === */
+
 .stats {
     background-color: rgba(255, 211, 33, 0.623);
     padding: 50px 0;
@@ -575,7 +573,7 @@ body {
 
 }
 
-/* === Free Consultation Section === */
+
 .consultation {
     background-color: rgb(255, 211, 33);
     padding: 50px 0;
@@ -621,7 +619,7 @@ body {
 
 
 
-/* News Sections  */
+
 
 
 .features {
@@ -781,6 +779,11 @@ body {
 .our-work img {
     width: 100%;
     border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.our-work img:hover {
+    transform: scale(1.2);
 }
 
 .contact {
@@ -897,3 +900,4 @@ body {
     border: 1px solid yellow;
     transition: box-shadow 0.3s ease;
 }
+
