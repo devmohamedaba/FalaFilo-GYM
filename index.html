@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Falafilo</title>
     <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -28,6 +29,8 @@
                     <li><a href="about.html">Trainers</a></li>
                     <li><a href="service.html">Plans</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span
+                                id="cart-count">0</span></a></li>
                 </ul>
             </div>
         </div>
@@ -152,16 +155,16 @@
             <h2>Gym Store</h2>
             <div class="products">
                 <div class="product">
-                    <img src="./whey2.jpg" alt="Protein" />
+                    <img src="./protein.jpg" alt="Protein" />
                     <h4>Whey Protein</h4>
                     <p>EGP 699</p>
-                    <button>Add to Cart</button>
+                    <button class="add-to-cart" data-name="Whey Protein" data-price="699">Add to Cart</button>
                 </div>
                 <div class="product">
                     <img src="./gloves.jpg" alt="Gloves" />
                     <h4>Training Gloves</h4>
                     <p>EGP 199</p>
-                    <button>Add to Cart</button>
+                    <button class="add-to-cart" data-name="Training Gloves" data-price="199">Add to Cart</button>
                 </div>
             </div>
         </div>
@@ -196,30 +199,6 @@
         </div>
     </div>
 
-
-    <!-- Start Features  -->
-    <div class="features">
-        <div class="container">
-            <div class="feat">
-                <h2>Values</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsam veritatis est placeat
-                    quidem maiores odit expedita incidunt sequi et nulla minima eligendi? Ratione reprehenderit eum
-                    error ipsum hic numquam!</p>
-            </div>
-            <div class="feat">
-                <h2>Goals</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet adipisci eum pariatur omnis ipsam,
-                    illo nemo asperiores harum aut voluptas et ratione numquam dicta obcaecati sit qui sint aliquid
-                    magni!</p>
-            </div>
-            <div class="feat">
-                <h2>hobbies</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, officia. Voluptas quas consequatur
-                    eius corrupti, a, ipsum tempora enim odit sint laborum perspiciatis sapiente dignissimos voluptatem,
-                    ex cupiditate quos repellendus?</p>
-            </div>
-        </div>
-    </div>
     <!-- Start About me  -->
     <div class="about-me">
         <div class="container">
@@ -235,26 +214,6 @@
                     <div>Esraa</div>
                     <div>Soliman</div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- Start Service  -->
-    <div class="service">
-        <div class="container">
-            <div class="serv">
-                <h2>Service</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, hic aperiam inventore
-                    consequuntur,
-                    excepturi praesentium expedita aliquam molestias pariatur quia voluptatibus adipisci assumenda,
-                    dolorem
-                    numquam asperiores placeat doloribus dolores similique.</p>
-                <button>Contact me</button>
-            </div>
-            <div class="number">
-                <h2>Numbers</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae accusantium laudantium, nulla dolore
-                    harum corporis reiciendis laboriosam eos possimus libero ea qui assumenda eaque sunt voluptas ipsum!
-                    Perferendis, voluptatem accusamus.</p>
             </div>
         </div>
     </div>
@@ -333,5 +292,6 @@
 </body>
 
 </html>
+
 
 
