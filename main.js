@@ -22,3 +22,39 @@ btn.onclick = function () {
 // co.onclick = function () {
 //     window.print();
 // };
+
+
+const cart = [];
+
+const buttons = document.querySelectorAll('.add-to-cart');
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const name = button.getAttribute('data-name');
+        const price = button.getAttribute('data-price');
+
+        cart.push({ name, price });
+
+
+
+        Swal.fire({
+            title: `${name} has been added to your cart!`,
+            icon: "success",
+            iconColor: 'rgb(255, 211, 33)',
+            draggable: true
+        });
+
+        console.log("cart");
+
+
+        localStorage.setItem('gymCart', JSON.stringify(cart));
+    });
+});
+
+
+
+
+
+
+
+
